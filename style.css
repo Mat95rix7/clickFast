@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+/* Style du conteneur principal */
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+/* Style du conteneur du jeu */
+#container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du compteur */
+#counter {
+  font-size: 2rem;
+  margin: 20px 0;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Style du timer */
+#timer {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #d9534f;
+}
+
+/* Style du bouton de clic */
+#clickButton {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Effet de survol sur le bouton */
+#clickButton:hover {
+  background-color: #0056b3;
+}
+
+/* Style du bouton de redémarrage */
+#restartButton {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Effet de survol sur le bouton de redémarrage */
+#restartButton:hover {
+  background-color: #218838;
+}
